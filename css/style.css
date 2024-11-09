@@ -1,16 +1,16 @@
 body{
-    background: #FFDEAD	;
+    background: rgb(199, 155, 116);
 }
 footer{
-    width: 99%;
+    
     text-align: right;
-    position: absolute;
-    bottom: 0px;
 }
 .header{
     display: flex;
 }
 .header-text{
+    background: #FFFF33;
+    border: 5px solid #c90f0f;
     flex-grow: 1;
     display: flex;
     justify-content: center;
@@ -18,23 +18,77 @@ footer{
     font-size: 2rem;
 }
 .left{
+    
     flex-direction: column;
     flex-grow: 1;
     display: flex;
 }
 .menu{
+    border: 5px solid black;
+    margin-top: 20px;
+    background: #6699FF;
     font-size: 1.5rem;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 30px;
+
 }
-
-
 img{
     width: 300px;
 }
 .logo{
-    
+    margin-left: 10px;
+    border: 2px solid rgb(0, 0, 0);
     display: flex;
     position: relative;
     justify-content: right;
+}
+.bott{
+    margin:15px 0  0 0 ;
+    display: flex;
+
+}
+.news{
+    
+    border: 3px solid black;
+   
+    width: 15%;
+
+}
+.news>ul li{
+    margin: 20px 0  0 0 ;
+    font-size: 1.3rem;
+}
+
+.content{
+    font-size: 2rem;
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex ;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.head-news{
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+}
+.vetrin{
+    margin: 10px;
+
+}
+a>img:hover{
+    border-radius: 50%;
+}
+.shapkacontenta{
+    display: flex;
+    margin: 10px 10px 10px 10px;
+}
+.telocontenta{
+    display: flex;
+    justify-content: space-between;
 }

@@ -1,0 +1,19 @@
+img{
+    width: 300px;
+}
+img:hover{
+    width: 500px;
+}
+div{
+    text-align: center;
+    margin: 20px;
+}
+.head{
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px;
+    border: 10px solid black;
+}
+body{
+    background: linear-gradient(to right, #159474, #3700ff);
+}
